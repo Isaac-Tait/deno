@@ -66,6 +66,6 @@ have check JS enabled, by using the no-check pragma:
 
 While this might work in some cases, it has some severe limits in Deno. This is
 because Deno, by default, runs type checking in what is called _strict mode_.
-This means a lot of unclear or ambiguous situations where are not caught in
-non-strict mode will result in diagnostics being generated, and JavaScript is
+This means a lot of unclear or ambiguous situations are not caught in
+non-strict mode and will result in diagnostics being generated, and JavaScript is
 nothing but unclear and ambiguous when it comes to types.
